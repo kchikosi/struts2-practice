@@ -3,9 +3,9 @@
     "http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>
     <package name="struts-starter" extends="struts-default">
-        <action name="HelloWorld" class="tutorial.HelloWorld">
+        <action name="hello" class="tutorial.HelloWorld">
             <result name="success">/WEB-INF/views/HelloWorld.jsp</result>
         </action>
-        <!-- Add your actions here -->
+        <!-- Add your actions here -->     
     </package>
 </struts>
